@@ -23,6 +23,8 @@ html {
 html,
 body {
   height: 100%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8BdzoyYhZ5JLdmpTLcDSb8QBADyyug_SoQ&usqp=CAU);
+  background-size: contain;
 }
 
 /*
@@ -61,7 +63,8 @@ form {
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
-  }
+    box-shadow: 25px 15px 5px rgba(28, 27, 27, 0.415);
+}
 
 .form-control {
   text-align: left;
@@ -71,9 +74,13 @@ form {
 .form-control label {
   display: block;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
-
+.form-control input{
+  background-color: lightblue;
+  color: crimson;
+}
 
 .form-control input,
 .form-control select,
@@ -88,4 +95,11 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  padding: 15px;
+  margin: 0 5px 0 25px;
+}
+.form-control button{
+  width: 95%;
+  background-color: springgreen;
+  border: 2px double green;
 }
