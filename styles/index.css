@@ -39,7 +39,7 @@ select {
 button {
   font: inherit;
   border: 2px solid black;
-  background-color: greenyellow;
+  background-color: blue;
   max-width: 600px;
   width: 95%;
   border-radius: 12px;
