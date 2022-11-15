@@ -11,7 +11,9 @@
 <body>
     <!-- FORM -->
     <section>
-
+        <div class="header">
+            <h2>Stutern Feedback Form</h2>
+        </div>
         <form>
             <div class="form-control">
                 <label>First name </label>
@@ -42,29 +44,35 @@
 
             <div class="form-control">
                 <label for="occupation"> Select which best describes you</label>
-                <input type="radio" name="occupation" /> <span>Student</span>
-                <input type="radio" name="occupation" /> <span>Working Class</span>
-                <input type="radio" name="occupation" /> <span>Self Employed</span>
+                <input type="radio" name="occupation" /><label for="">Student</label>
+                <input type="radio" name="occupation" /> <label for="">Working Class</label>
+                <input type="radio" name="occupation" /> <label for="">Self-employed</label>
 
             </div>
 
             <div class="form-control">
-                <label>Would you recommend Stutern to a friend?</label>
+                <label for="pickone">Would you recommend Stutern to a friend?</label>
                 <!-- <label> -->
-                <input type="radio" /><span for="yes">Yes</label>
-                    <input type="radio">No</input>
+                <input type="radio" name="pickone"><label for="">Yes</label>
+                <input type="radio" name="pickone"><label for="">No</label>
                     <!-- </label> -->
             </div>
 
             <div class="form-control">
-                <label>What technologies are you now familiar with?</label>
-                <input type="checkbox">Git</input>
-                <input type="checkbox">HTML</input>
-                <input type="checkbox">CSS</input>
-                <input type="checkbox">JavaScript</input>
-                <input type="checkbox">React</input>
-                <input type="checkbox">Python</input>
-                <input type="checkbox">TypeScript</input>
+                <label class="familiar_tech">What technologies are you now familiar with?</label>
+                <input type="checkbox"><label for="">Git</label>
+
+                <input type="checkbox"><label for="">HTML</label>
+
+                <input type="checkbox"><label for="">CSS</label>
+
+                <input type="checkbox"><label for="">JavaScript</label>
+
+                <input type="checkbox"><label for="">React</label>
+
+                <input type="checkbox"><label for="">Python</label>
+
+                <input type="checkbox"><label for="">TypeScript</label>
             </div>
 
             <div class="form-control">

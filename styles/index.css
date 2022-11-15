@@ -61,11 +61,13 @@ form {
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
+    box-shadow: 25px 25px 5px 12px rgb(63, 59, 59);
   }
 
 .form-control {
   text-align: left;
   margin-bottom: 24px;
+  width: 90%;
 }
 
 .form-control label {
@@ -74,10 +76,10 @@ form {
 }
 
 
-
 .form-control input,
 .form-control select,
-.form-control textarea {
+.form-control textarea,
+.form-control button {
   border: 1px solid gray;
   border-radius: 5px;
   padding: 10px;
@@ -88,4 +90,65 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin: 0 5%;
+}
+
+/* I tried doing
+.form-control input[type="radio"]
+.form-control input[type="checkbox"]
+but it didn't change the buttons. 
+I don't know if it works with radio and checkboxes */
+.form-control input,
+.form-control select,
+.form-control textarea,
+.form-control input[type="radio"],
+.form-control input[type="checkbox"],
+.form-control button{
+  background-color:gold;
+}
+
+
+.form-control label{
+  font-weight: bolder;
+}
+
+.form-control button{
+  border: 2px solid gray;
+}
+
+/* You said to 'change the color of the text
+of the input fields' so I wasn't sure if that was the 
+textbox content or the label headings and I did both*/
+input,
+.form-control label,
+.form-control textarea{
+  color: red;
+}
+.header{
+  text-align: center;
+  margin: 20px 0px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: larger;
+  color: aqua;
+}
+
+/* I changed the HTML layout for these labels
+because I wanted the text to have the same as 
+others. Reference: lines 119-121 */
+.form-control:nth-child(8) label,
+.form-control:nth-child(7) label,
+.form-control:nth-child(6) label{
+  all: unset;
+  color: red;
+  font-weight: bolder;
+}
+/* I didn't know how to make my image fill the whole screen :( */
+body{
+  background-image: url(/images/surver-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
 }
