@@ -1,0 +1,108 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* SURVEY FORM STYLES */
+body {
+  background-image: url("./background.png");
+  background-repeat: repeat;
+}
+form {
+  background-color: aqua;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-control {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+  color: rgb(16, 54, 54);
+  background-color: rgb(163, 252, 221);
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin: 5px;
+}
+.form-control button {
+  width: 95%;
+  background-color: rgb(163, 252, 221);
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
