@@ -55,12 +55,26 @@ h6 {
 }
 
 /* SURVEY FORM STYLES */
+body{
+  background-image: url(https://www.appypie.com/design/image-color-picker/public/img/example-2.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+h1{
+  margin-bottom: 20px;
+  color: chocolate;
+}
 
 form {
     background-color: aqua;
     margin: 0 auto;
     max-width: 600px;
+    margin-top: 60px;
     padding: 30px;
+    box-shadow: 10px 10px 0px 10px rgb(12, 53, 53);
+    border-radius: 15px;
   }
 
 .form-control {
@@ -71,9 +85,8 @@ form {
 .form-control label {
   display: block;
   margin-bottom: 10px;
+  font-weight: 700;
 }
-
-
 
 .form-control input,
 .form-control select,
@@ -82,10 +95,30 @@ form {
   border-radius: 5px;
   padding: 10px;
   width: 95%;
+  background-color: #b8d5b8;
+  color: brown;
 }
 
 .form-control input[type="radio"],
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin: 2px 0px 0px 11px;
 }
+
+/* label{
+  font-weight: 700;
+} */
+
+.form-control button{
+  width: 95%;
+  background-color: #008b8b;
+  border: 2px solid #008b8b;
+  border-radius: 5px;
+  height: 40px;
+  color: antiquewhite;
+}
+
+/* .form-control .click{
+  margin-right: 10px;
+} */
