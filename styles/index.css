@@ -56,11 +56,17 @@ h6 {
 
 /* SURVEY FORM STYLES */
 
+body{
+  background-image: url(backgroundimage.jpg);
+}
+
 form {
     background-color: aqua;
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
+    box-shadow: 3px 2px 5px 10px rgba(123, 121, 121, 0.4);
+   
   }
 
 .form-control {
@@ -88,4 +94,23 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+}
+input{
+  background-color: rgb(245, 234, 220);
+}
+label{
+  font-weight: bolder;
+}
+input[type="text"] {
+  color: rgb(97, 5, 5);
+}
+button{
+  width: 95%;
+  border: 2px solid rgb(69, 4, 4);
+  background-color: rgb(230, 230, 185);
+
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 12px;
 }
