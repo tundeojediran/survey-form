@@ -124,3 +124,20 @@ input {
 label {
   font-weight: bolder;
 }
+input:hover {
+  background-color: white;
+  color: black;
+}
+input:hover{
+  background-color: white;
+  color: black;
+}
+textarea:hover{
+  background-color: white;
+  color: black;
+}
+
+select:hover{
+  background-color: white;
+  color: black;
+}
