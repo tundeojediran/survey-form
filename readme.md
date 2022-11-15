@@ -18,4 +18,4 @@
 
 Voila!!! You are now a CSS Champion!!! 🥇🎉
 
-Of course, you have to keep learning ans Learning never ends...
+Of course, you have to keep learning as "Learning is a continuous process..."
