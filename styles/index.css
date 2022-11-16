@@ -88,4 +88,6 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin-left: 12px;
+  vertical-align: baseline;
 }
