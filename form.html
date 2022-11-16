@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h1 id="feedback">stutern feedback form</h1>
+        </header>
+        <form action="">
+            <div class="form-control">
+                <label for="first-name">First name
+                    <input type="text" name="first-name" id="first-name" autofocus>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="last-name">Last name
+                    <input type="text" name="last-name" id="last-name">
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="email-address">Email Address
+                    <input type="email" name="last-name" id="email-address">
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="phone-number">Phone number
+                    <input type="number" name="phone-number" id="phone-number">
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="tracks">What track do you belong to?</label>
+                <select name="courses" id="select-track">
+                    <option value="frontend">Front End</option>
+                    <option value="backend">Back End</option>
+                    <option value="software-testing">Software Testing</option>
+                    <option value="data-science">Data science</option>
+                    <option value="mobile-apps">Mobile apps</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="occupation">Select which best describes you</label>
+                    <input type="radio" name="occupation" id="occupation" /> <span>Student</span>
+                    <input type="radio" name="occupation" id="occupation" /> <span>Working Class</span>
+                    <input type="radio" name="occupation" id="occupation" /> <span>Self Employed</span>
+            </div>
+            <div class="form-control">
+                <label for="choice">Would you recommend Stutern to a friend?</label>
+                <!-- <label> -->
+                <input type="radio" name="choice" id="choice" />Yes
+                    <input type="radio" name="choice" id="choice" />No
+                    <!-- </label> -->
+            <div class="form-control">
+                <label for="technologies">What technologies are you now familiar with?</label>
+                    <input type="checkbox" name="technologies" id="technologies">Git
+                    <input type="checkbox" name="technologies" id="technologies">HTML
+                    <input type="checkbox" name="technologies" id="technologies">CSS
+                    <input type="checkbox" name="technologies" id="technologies">JavaScript
+                    <input type="checkbox" name="technologies" id="technologies">React
+                    <input type="checkbox" name="technologies" id="technologies">Python
+                    <input type="checkbox" name="technologies" id="technologies">TypeScript
+            </div>
+            <div class="form-control">
+                    <label>Any feedback for the Stutern team?</label>
+                    <textarea cols="10" rows="4"></textarea>
+            </div>
+            <div class="form-control">
+                <button id="btn">Submit feedback</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
