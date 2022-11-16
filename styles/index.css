@@ -1,3 +1,38 @@
+/* header 'Stutern Feedback Form' at the top */
+header{
+  text-align: center;
+  color: blueviolet;
+}
+/* background color of the input fields
+color of the text of the input fields*/
+input{
+  background-color: bisque;
+  
+  color: blue;
+}
+/* background color of the  textarea field*/
+textarea{
+  background-color: bisque;
+  color: red;
+  
+}
+/*labels bolder*/
+ form label{
+  font-weight: bolder;
+}
+
+/*
+'Submit feedback' button. same width as the input fields.
+ background color and a border of 2px*/
+.submit{
+   width: 511px;
+  background-color: bisque;
+  border: solid 2px;
+  border-radius: 5px;
+}
+
+/**/
+
 html {
   font-family: "Montserrat", sans-serif;
 }
@@ -23,7 +58,10 @@ html {
 html,
 body {
   height: 100%;
+  background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=600);
+/*background image*/
 }
+
 
 /*
   7. Remove built-in form typography styles
@@ -61,6 +99,8 @@ form {
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
+    box-shadow: 10px 10px 50px;
+    /*box shadow*/
   }
 
 .form-control {
@@ -88,4 +128,5 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin-left: 8px;
 }
