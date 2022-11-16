@@ -20,7 +20,6 @@ html {
 /*
     3. Allow percentage-based heights in the application
   */
-html,
 body {
   height: 100%;
 }
@@ -39,6 +38,11 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: white;
+  background-image: url("/assets/bground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
 }
 
 /*
@@ -57,11 +61,16 @@ h6 {
 /* SURVEY FORM STYLES */
 
 form {
-    background-color: aqua;
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 30px;
-  }
+  background-color: aqua;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  margin-bottom: 140px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+}
 
 .form-control {
   text-align: left;
@@ -73,11 +82,10 @@ form {
   margin-bottom: 10px;
 }
 
-
-
 .form-control input,
 .form-control select,
-.form-control textarea {
+.form-control textarea,
+.submit-btn {
   border: 1px solid gray;
   border-radius: 5px;
   padding: 10px;
@@ -88,4 +96,28 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+}
+header {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+}
+input {
+  background-color: rgb(235, 243, 243);
+}
+label {
+  font-weight: bold;
+}
+input input:focus {
+  color: rgb(86, 84, 84);
+}
+.submit-btn {
+  background-color: rgb(235, 243, 243);
+  border: 2px solid gray;
+}
+.form-control > input {
+  margin: 5px;
 }
