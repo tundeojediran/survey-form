@@ -4,34 +4,39 @@
 
 <head>
     <title>Stutern Feedback/Survey Form</title>
-
+      <link rel="icon" href="./images/stutern_logo_icon.png" type="png" >
     <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
+      <!-- HEADER -->
+      <header class="header">
+            <h1>Stutern Feedback Form</h1>
+      </header>
     <!-- FORM -->
-    <section>
+    <section class="form-section">
 
         <form>
             <div class="form-control">
                 <label>First name </label>
-                <input type="text">
+                <input type="text" required>
             </div>
             <div class="form-control">
                 <label>Last name </label>
-                <input type="text">
+                <input type="text" required>
             </div>
             <div class="form-control">
                 <label>Email address </label>
-                <input type="email">
+                <input type="email" required>
             </div>
             <div class="form-control">
                 <label>Phone number </label>
-                <input type="number">
+                <input type="text" placeholder="E.g +996-" required>
             </div>
             <div class="form-control">
                 <label>What track do you belong to? </label>
-                <select class='select-track'>
+                <select class='select-track' required>
+                  <option value=""></option>
                     <option value="frontend">Front End</option>
                     <option value="backend">Back End</option>
                     <option value="software-testing"> Software Testing</option>
@@ -40,7 +45,7 @@
                 </select>
             </div>
 
-            <div class="form-control">
+            <div class="form-control radio_check">
                 <label for="occupation"> Select which best describes you</label>
                 <input type="radio" name="occupation" /> <span>Student</span>
                 <input type="radio" name="occupation" /> <span>Working Class</span>
@@ -48,23 +53,23 @@
 
             </div>
 
-            <div class="form-control">
-                <label>Would you recommend Stutern to a friend?</label>
+            <div class="form-control radio_check">
+                <label for="recommend">Would you recommend Stutern to a friend?</label>
                 <!-- <label> -->
-                <input type="radio" /><span for="yes">Yes</label>
-                    <input type="radio">No</input>
+                <input type="radio"  name="recommend"/> <span>Yes</span>
+                    <input type="radio" name="recommend"> <span>No</span>
                     <!-- </label> -->
             </div>
 
-            <div class="form-control">
+            <div class="form-control radio_check">
                 <label>What technologies are you now familiar with?</label>
-                <input type="checkbox">Git</input>
-                <input type="checkbox">HTML</input>
-                <input type="checkbox">CSS</input>
-                <input type="checkbox">JavaScript</input>
-                <input type="checkbox">React</input>
-                <input type="checkbox">Python</input>
-                <input type="checkbox">TypeScript</input>
+                <input type="checkbox">&nbsp;Git</input>
+                <input type="checkbox">&nbsp;HTML</input>
+                <input type="checkbox">&nbsp;CSS</input>
+                <input type="checkbox">&nbsp;JavaScript</input>
+                <input type="checkbox">&nbsp;React</input> <br>
+                <input type="checkbox">&nbsp;Python</input>
+                <input type="checkbox">&nbsp;TypeScript</input>
             </div>
 
             <div class="form-control">
@@ -83,16 +88,19 @@
 
         </form>
     </section>
+    <footer>
+      <a href="https://app.stutern.com/profile/478" target="_blank">stutern_logo_Tab_icon</a>
+    </footer>
 </body>
 
 </html>
 
-<!-- 
+<!--
     First name, <input type text>
     Last name,  <input type text>
     Email address  <input type email>
     Phone number  <input type tel/number/ text>
-    What track do you belong to? radio / select 
+    What track do you belong to? radio / select
     Select which best describes you: Student / Working class:  radio / select
     Would you recommend Stutern to a friend? / text / radio
     What technologies are you now familiar with? checkbox / text

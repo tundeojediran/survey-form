@@ -20,9 +20,14 @@ html {
 /*
     3. Allow percentage-based heights in the application
   */
-html,
+
 body {
+width: 100%;
   height: 100%;
+  background: linear-gradient(45deg, #027f7fd4, #013333b8),
+    url(../images/scott-graham-unsplash.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 /*
@@ -57,11 +62,13 @@ h6 {
 /* SURVEY FORM STYLES */
 
 form {
-    background-color: aqua;
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 30px;
-  }
+  background-color: aqua;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.365) 15px 15px 25px 10px;
+}
 
 .form-control {
   text-align: left;
@@ -71,9 +78,8 @@ form {
 .form-control label {
   display: block;
   margin-bottom: 10px;
+  font-weight: bold;
 }
-
-
 
 .form-control input,
 .form-control select,
@@ -82,10 +88,46 @@ form {
   border-radius: 5px;
   padding: 10px;
   width: 95%;
+  background-color: aliceblue;
+  outline-color: #ceb703;
+  color: #013333;
 }
 
 .form-control input[type="radio"],
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin-left: 12px;
+  vertical-align: baseline;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 70px;
+  z-index: 999;
+  background-color: #fff;
+}
+.header h1 {
+  font-size: 1.5rem;
+  margin: 0.75rem;
+  text-align: left;
+}
+.form-section {
+  margin-top: 60px;
+}
+.form-control button {
+  display: block;
+  width: 95%;
+  background-color: #013333;
+  border: 2px solid #013333;
+  padding: 5px;
+  color: #fff;
+  font-size: 115%;
+}
+footer a {
+  color: #fff;
+  padding: 5px;
 }
