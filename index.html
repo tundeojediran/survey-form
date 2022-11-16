@@ -11,8 +11,10 @@
 <body>
     <!-- FORM -->
     <section>
-
         <form>
+            <header>
+                <h1>Stutern Feedback Form</h1>
+            </header>
             <div class="form-control">
                 <label>First name </label>
                 <input type="text">
@@ -41,7 +43,7 @@
             </div>
 
             <div class="form-control">
-                <label for="occupation"> Select which best describes you</label>
+                <label for="occupation">Select which best describes you</label>
                 <input type="radio" name="occupation" /> <span>Student</span>
                 <input type="radio" name="occupation" /> <span>Working Class</span>
                 <input type="radio" name="occupation" /> <span>Self Employed</span>
@@ -49,11 +51,9 @@
             </div>
 
             <div class="form-control">
-                <label>Would you recommend Stutern to a friend?</label>
-                <!-- <label> -->
-                <input type="radio" /><span for="yes">Yes</label>
-                    <input type="radio">No</input>
-                    <!-- </label> -->
+                <label for="option">Would you recommend Stutern to a friend?</label>
+                <input type="radio" name="option" />Yes</input>
+                    <input type="radio" name="option">No</input>
             </div>
 
             <div class="form-control">
@@ -77,10 +77,6 @@
                     Submit feedback
                 </button>
             </div>
-
-
-
-
         </form>
     </section>
 </body>
