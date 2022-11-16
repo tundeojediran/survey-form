@@ -20,7 +20,7 @@ html {
 /*
     3. Allow percentage-based heights in the application
   */
-html,
+
 body {
   height: 100%;
 }
@@ -60,7 +60,9 @@ form {
     background-color: aqua;
     margin: 0 auto;
     max-width: 600px;
+    margin-bottom: 3em;
     padding: 30px;
+    box-shadow: rgb(0, 0, 0, 0.5) 0px 5px 55px;
   }
 
 .form-control {
@@ -70,8 +72,20 @@ form {
 
 .form-control label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  
 }
+
+  body {
+    background-color: rgb(96, 171, 100);
+    background-image: url("/Flower.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 50px;
+  }
 
 
 
@@ -88,4 +102,33 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin: 5px;
+
+}
+
+h1{
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+input{
+    background-color: bisque;
+  
+}
+
+.form-control textarea {
+  color: coral;
+}
+
+ select {
+  background-color: bisque;
+}
+
+.form-control button {
+  background-color: royalblue;
+  border: 2px;
+  padding: 10px 40px;
+  text-align: center; 
+  width: 95%;
 }
