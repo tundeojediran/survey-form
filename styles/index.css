@@ -33,13 +33,13 @@ input,
 textarea,
 select {
   font: inherit;
-  background-color: purple;
+  background-color: gray;
   color: red;
 }
 button {
   font: inherit;
   border: 2px solid black;
-  background-color: blue;
+  background-color: aquamarine;
   max-width: 600px;
   width: 95%;
   border-radius: 12px;
@@ -120,7 +120,7 @@ header {
 /* i know its not part of the tasks its just for added efects */
 
 input {
-  background-color: purple;
+  background-color: gray;
   color: red;
 }
 
