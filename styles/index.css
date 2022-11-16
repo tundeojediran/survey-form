@@ -61,6 +61,8 @@ form {
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
+    box-shadow: 10px 5px 5px palevioletred;
+    background-image: url(/images/colour\ image.jpeg);
   }
 
 .form-control {
@@ -71,6 +73,7 @@ form {
 .form-control label {
   display: block;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 
@@ -88,4 +91,27 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin: 0px 15px 0px 3px;
+}
+
+/* Centralizing the header */
+h1{
+  margin: 1em,auto;
+  text-align: center;
+}
+/*stling input fields*/
+.form-control input[type=radio],
+.form-control input[type=checkbox],
+.form-control input[type=textarea],
+.form-control input{
+  background-color: rgb(187, 176, 162);
+  color: red;
+}
+
+/*styling Submit button */
+.form-control button{
+  width: auto;
+  background-color: rgb(234, 68, 134);
+  border: 2px;
+  border-radius: 5px;
 }
