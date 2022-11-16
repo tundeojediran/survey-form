@@ -52,6 +52,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  text-align: center;
 }
 
 /* SURVEY FORM STYLES */
@@ -61,6 +62,7 @@ form {
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
+    box-shadow: 5px 10px 5px black;
   }
 
 .form-control {
@@ -88,4 +90,18 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin: 6px;
 }
+.input-box{
+  background-color: rgb(0, 102, 255);
+  color: rgb(199, 14, 14);
+}
+.main{
+  font-weight: bold;
+}
+button{
+  border: 2px solid;
+  width: 95%;
+  background-color: pink;
+}
+/* I tried adding the image but i couldnt, it was just at the top*/
