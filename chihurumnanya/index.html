@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Stutern Feedback/Survey Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- FORM -->
+    <section>
+
+        <form>
+            <h1>Stutern Feedback Form</h1>
+            <div class="form-control">
+                <label>First name </label>
+                <input type="text">
+            </div>
+            <div class="form-control">
+                <label>Last name </label>
+                <input type="text">
+            </div>
+            <div class="form-control">
+                <label>Email address </label>
+                <input type="email">
+            </div>
+            <div class="form-control">
+                <label>Phone number </label>
+                <input type="number">
+            </div>
+            <div class="form-control">
+                <label>What track do you belong to? </label>
+                <select class='select-track'>
+                    <option value="frontend">Front End</option>
+                    <option value="backend">Back End</option>
+                    <option value="software-testing"> Software Testing</option>
+                    <option value="data-science"> Data Science</option>
+                    <option value="mobile-apps">Mobile Apps</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label for="occupation"> Select which best describes you</label>
+                <input type="radio" name="occupation" /> <span> &nbsp; Student</span> &nbsp; &nbsp;
+                <input type="radio" name="occupation" /> <span> &nbsp; Working Class</span> &nbsp; &nbsp;
+                <input type="radio" name="occupation" /> <span> &nbsp; Self Employed</span>
+
+            </div>
+
+            <div class="form-control">
+                <label>Would you recommend Stutern to a friend?</label>
+                <!-- <label> -->
+                <input type="radio"  name="choose"/><span for="yes"> &nbsp; Yes</label>&nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio"  name="choose"/> &nbsp; No</input>
+                    <!-- </label> -->
+            </div>
+
+            <div class="form-control">
+                <label>What technologies are you now familiar with?</label>
+                <input type="checkbox"> &nbsp; Git</input><br>
+                <input type="checkbox"> &nbsp; HTML</input><br>
+                <input type="checkbox"> &nbsp; CSS</input><br>
+                <input type="checkbox"> &nbsp; JavaScript</input><br>
+                <input type="checkbox"> &nbsp; React</input><br>
+                <input type="checkbox"> &nbsp; Python</input><br>
+                <input type="checkbox"> &nbsp; TypeScript</input>
+            </div>
+
+            <div class="form-control">
+                <label>Any feedback for the Stutern team?</label>
+                <textarea cols="10" rows="4"></textarea>
+            </div>
+
+            <div class="form-control">
+                <button>
+                    Submit feedback
+                </button>
+            </div>
+
+
+
+
+        </form>
+    </section>
+</body>
+
+</html>
+
+<!-- 
+    First name, <input type text>
+    Last name,  <input type text>
+    Email address  <input type email>
+    Phone number  <input type tel/number/ text>
+    What track do you belong to? radio / select 
+    Select which best describes you: Student / Working class:  radio / select
+    Would you recommend Stutern to a friend? / text / radio
+    What technologies are you now familiar with? checkbox / text
+    Any feedback for the Stutern team? textarea / text
+    Submit feedback i:button / button
+
+-->
