@@ -4,34 +4,39 @@
 
 <head>
     <title>Stutern Feedback/Survey Form</title>
-
+      <link rel="icon" href="./images/stutern_logo_icon.png" type="png" >
     <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
+      <!-- HEADER -->
+      <header class="header">
+            <h1>Stutern Feedback Form</h1>
+      </header>
     <!-- FORM -->
-    <section>
+    <section class="form-section">
 
         <form>
             <div class="form-control">
                 <label>First name </label>
-                <input type="text">
+                <input type="text" required>
             </div>
             <div class="form-control">
                 <label>Last name </label>
-                <input type="text">
+                <input type="text" required>
             </div>
             <div class="form-control">
                 <label>Email address </label>
-                <input type="email">
+                <input type="email" required>
             </div>
             <div class="form-control">
                 <label>Phone number </label>
-                <input type="number">
+                <input type="text" placeholder="E.g +996-" required>
             </div>
             <div class="form-control">
                 <label>What track do you belong to? </label>
-                <select class='select-track'>
+                <select class='select-track' required>
+                  <option value=""></option>
                     <option value="frontend">Front End</option>
                     <option value="backend">Back End</option>
                     <option value="software-testing"> Software Testing</option>
@@ -83,6 +88,9 @@
 
         </form>
     </section>
+    <footer>
+      <a href="https://app.stutern.com/profile/478" target="_blank">stutern_logo_Tab_icon</a>
+    </footer>
 </body>
 
 </html>
