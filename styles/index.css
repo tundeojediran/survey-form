@@ -129,6 +129,7 @@ form {
   background-color: rgb(255, 24, 24);
   text-transform: capitalize;
   color: rgb(247, 244, 230);
+  cursor: pointer;
 }
 
 #btn:hover {
