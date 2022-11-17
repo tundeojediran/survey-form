@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stutern Feedback Form</title>
+    <link rel="stylesheet" href="styles/estherajayi.css">
+</head>
+<body>
+    <h1>STUTERN Feedback Form</h1>
+    <section>
+        <form action="">
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="name" name="firstname" id="firstname" autofocus>
+            </div>
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="name" name="lastname" id="lastname"> 
+            </div>
+            <div>
+                <label for="emailaddress">Email Address</label>
+                <input type="email" name="email_address" id="emailaddress"> 
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phonenumber" id="phone"> 
+            </div>
+            <div>
+                <label for="track">What track do you belong to?</label>
+                <select name='select_track' id="track">
+                    <option value="frontend">Front End</option>
+                    <option value="backend">Back End</option>
+                    <option value="software-testing">Software Testing</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="mobile-apps">Mobile Apps</option>
+                </select>
+            </div>
+            <div>
+                <label> Select which best describes you?</label>
+                <label for="student">
+                    <input type="radio" name="occupation" id="student" value="student">Student
+                </label>
+                <label for="workingclass">
+                    <input type="radio" name="occupation" id="workingclass" value="working class">Working Class
+                </label>
+                <label for="selfemployed">
+                    <input type="radio" name="occupation" id="selfemployed" value="self employed">Self Employed
+                </label>
+            </div>
+            <div>
+                <label>Would you recommend Stutern to a friend?</label>
+                <label for="yes">
+                    <input type="radio" name="recommend" id="yes" value="yes">Yes
+                </label>
+                <label for="no">
+                    <input type="radio" name="recommend" id="no" value="no">No
+                </label>
+            </div>
+            <div>
+                <label>What technologies are you now familiar with?</label>
+					<label for="git">
+						<input type="checkbox" name="tech1" id="git" value="git">Git
+					</label>
+                    <label for="html">
+						<input type="checkbox" name="tech2" id="html" value="html">HTML
+					</label>
+                    <label for="css">
+						<input type="checkbox" name="tech3" id="css" value="css">CSS
+					</label>
+                    <label for="javascript">
+						<input type="checkbox" name="tech4" id="javascript" value="javascript">JavaScript
+					</label>
+                    <label for="react">
+						<input type="checkbox" name="tech5" id="react" value="react">React
+					</label>
+                    <label for="python">
+						<input type="checkbox" name="tech6" id="python" value="python">Python
+					</label>
+                    <label for="typescript">
+						<input type="checkbox" name="tech7" id="typescript" value="html">TypeScript
+					</label>
+                <div>
+                    <label for="comments">Any feedback for the Stutern team?</label>
+                    <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
