@@ -1,6 +1,7 @@
 html {
   font-family: "Montserrat", sans-serif;
 }
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -36,6 +37,7 @@ select {
 }
 
 body {
+  background-image: url("/images/sea.jpg");
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: white;
@@ -44,8 +46,11 @@ body {
 /*
   8. Avoid text overflows
 */
+h1 {
+  text-align: center;
+}
+
 p,
-h1,
 h2,
 h3,
 h4,
@@ -57,11 +62,14 @@ h6 {
 /* SURVEY FORM STYLES */
 
 form {
-    background-color: aqua;
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 30px;
-  }
+  background-color: aqua;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: -5px -5px 30px 5px #9e4a71,
+    5px 5px 30px 5px #4b1efe;
+  ;
+}
 
 .form-control {
   text-align: left;
@@ -88,4 +96,53 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin: 20px;
+  accent-color: #9e4a71;
+}
+
+.select-track {
+  background-color: #ffffff;
+  ;
+}
+
+
+option {
+  background-color: #f98ea0;
+}
+
+
+.select-track {
+  background-color: #f98ea0;
+}
+
+
+::selection {
+  background-color: black;
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+  color: #4b1efe;
+  background-color: #f98ea0;
+}
+
+textarea {
+  color: #4b1efe;
+}
+
+label {
+  font-weight: bolder;
+}
+
+
+
+button {
+  width: 95%;
+  border: 2px;
+  background-color: #9e4a71;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+  ;
 }
