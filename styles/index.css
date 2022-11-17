@@ -36,9 +36,10 @@ select {
 }
 
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  background-color: white;
+  background-image: url('https://media.istockphoto.com/id/463758761/photo/a-surveyor-taking-measurements-outdoors.jpg?s=612x612&w=0&k=20&c=YmUKpiv0TEtdauvPcvGpi7LEfIxabT_1a9UgghLLowI=');
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 /*
@@ -66,11 +67,13 @@ form {
 .form-control {
   text-align: left;
   margin-bottom: 24px;
+  box-shadow: 2px 3px;
 }
 
 .form-control label {
   display: block;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 
@@ -82,10 +85,33 @@ form {
   border-radius: 5px;
   padding: 10px;
   width: 95%;
+  background-color: lightsalmon;
+  color: red;
 }
 
 .form-control input[type="radio"],
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  padding: 20px 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.form-control span {
+  color: red;
+}
+
+div.box {
+  color: red;
+}
+
+.form-control button{
+  width: 95%;
+  background-color: coral;
+  border: 2px;
+}
+
+h1 {
+  text-align: center;
 }
