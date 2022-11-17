@@ -1,0 +1,57 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    width: 800px;
+    margin: 0 auto;
+}
+
+body {
+    height: 100px;
+    line-height: 2;
+    background-repeat: repeat;
+    background-image: linear-gradient(to left,rgb(230,248,249),rgb(205, 199, 240));
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(0,191,177);
+}
+
+form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: start;
+    box-shadow: 3px 5px 6px rgb(77,71,109)
+}
+
+form input, select, textarea {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(223, 223, 223);
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-left: 50px;
+}
+
+form label {
+    font-weight: 500;
+}
+
+form input {
+    color: rgb(0,191,177);
+}
+
+form button {
+    background-color: rgb(0,191,177);
+    border: 2px solid rgb(0,191,177);
+    border-radius: 5px;
+}
