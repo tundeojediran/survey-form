@@ -12,7 +12,11 @@
     <!-- FORM -->
     <section>
 
-        <form>
+        <form class="container">
+            <div class="form-control">
+                <label>Any feedback for the Stutern team?</label>
+                <textarea cols="10" rows="4"></textarea>
+            </div>
             <div class="form-control">
                 <label>First name </label>
                 <input type="text">
@@ -41,7 +45,7 @@
             </div>
 
             <div class="form-control">
-                <label for="occupation"> Select which best describes you</label>
+                <label for="occupation" class="label"> Select which best describes you</label>
                 <input type="radio" name="occupation" /> <span>Student</span>
                 <input type="radio" name="occupation" /> <span>Working Class</span>
                 <input type="radio" name="occupation" /> <span>Self Employed</span>
@@ -49,11 +53,14 @@
             </div>
 
             <div class="form-control">
-                <label>Would you recommend Stutern to a friend?</label>
+
+                <label for="recommend">Would you recommend Stutern to a friend?</label>
+                
                 <!-- <label> -->
-                <input type="radio" /><span for="yes">Yes</label>
-                    <input type="radio">No</input>
-                    <!-- </label> -->
+                <input type="radio" name="recommend" /><span for="yes">Yes</label>
+                <input type="radio" name="recommend">No</input>
+                <!-- </label> -->
+
             </div>
 
             <div class="form-control">
@@ -67,10 +74,7 @@
                 <input type="checkbox">TypeScript</input>
             </div>
 
-            <div class="form-control">
-                <label>Any feedback for the Stutern team?</label>
-                <textarea cols="10" rows="4"></textarea>
-            </div>
+            
 
             <div class="form-control">
                 <button>
