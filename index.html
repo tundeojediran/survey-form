@@ -14,6 +14,9 @@
 
         <form>
             <div class="form-control">
+            <h1>Stutern Feedback Form</h1>
+            </div>
+            <div class="form-control">
                 <label>First name </label>
                 <input type="text">
             </div>
@@ -49,10 +52,10 @@
             </div>
 
             <div class="form-control">
-                <label>Would you recommend Stutern to a friend?</label>
+                <label for="recommendation">Would you recommend Stutern to a friend?</label>
                 <!-- <label> -->
-                <input type="radio" /><span for="yes">Yes</label>
-                    <input type="radio">No</input>
+                <input type="radio" name="recommendation" /><span for="yes">Yes</span>
+                    <input type="radio" name="recommendation" /><span for="No">No</span>
                     <!-- </label> -->
             </div>
 
@@ -71,16 +74,11 @@
                 <label>Any feedback for the Stutern team?</label>
                 <textarea cols="10" rows="4"></textarea>
             </div>
-
             <div class="form-control">
                 <button>
                     Submit feedback
                 </button>
             </div>
-
-
-
-
         </form>
     </section>
 </body>
