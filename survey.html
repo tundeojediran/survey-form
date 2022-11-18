@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stutern Survey Form</title>
+    <link rel="stylesheet" href="survey.css"
+</head>
+<body>
+    <h1>Stutern Feedback Form</h1>
+    <section>
+        <form>
+            <div class="form">
+                <label><b>First Name</b></label>
+                <input type="text"
+            </div>
+
+            <div class="form">
+                <label><b>Other Names</b></label>
+                <input type="text"
+            </div>
+
+            <div class="form">
+                <label><b>Surname</b></label>
+                <input type="text"
+            </div>
+            <div class="form">
+                <label><b>Email Address</b></label>
+                <input type="email"
+            </div>
+            <div class="form">
+                <label><b>Phone Number</b></label>
+                <input type="tel"
+            </div>
+            <div class="form">
+                <label><b>What track do you belong to</b></label>
+                <select class="track_selection">
+                    <option value="mobile-apps">Mobile Apps</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="software-testin">Sotfware Testing </option>
+                    <option value="backend">Backend</option>
+                    <option value="frontend">Frontend</option>
+                </select>
+            </div>
+            
+            <div class="form">
+                <label for="occupation"><b>Select the occupation that best describes you</b></label>
+                <input type="radio" name="occupation" /><span>Student</span>
+                <input type="radio" name="occupation" /><span>Employed</span>
+                <input type="radio" name="occupation" /><span>Unemployed</span>
+                <input type="radio" name="occupation" /><span>Nuisance</span>
+
+            </div>
+
+            <div class="form">
+                <label><b>Would you recommend Stutern to a friend</b></label>
+                <input type="radio" name="maybe"/><span>Yes</span>
+                <input type="radio" name="maybe" /><span>No</span>
+                
+            </div>
+
+            <div class="form">
+                <label for="recommendation"><b>How likely would you recommend stutern?</b></label>
+                <input type="radio" name="recommendation"/><span>Likely</span>
+                <input type="radio" name="recommendation" /><span>Unlikely</span>
+                <input type="radio" name="recommendation" /><span>Very likely</span>
+                <input type="radio" name="recommendation" /><span>Rarely</span>
+                 
+            </div>
+
+            <div class="form">
+                <label><b>What type of technologies are you familiar with?</b></label>
+                <input type="checkbox">Git</input>
+                <input type="checkbox">HTML</input>
+                <input type="checkbox">CSS</input>
+                <input type="checkbox">Javascript</input>
+                <input type="checkbox">R programming</input>
+                <input type="checkbox">React</input>
+                <input type="checkbox">Python</input>
+                <input type="checkbox">Typescript</input>
+                <input type="text">Others</input>
+
+            </div>
+            <div class="form">
+                <label for="stuternreview"><b>Any Feedback for stutern team</b></label>
+                <textarea id="stuternreview" name="stuternreview" cols="60" rows="4"></textarea>
+            </div>
+
+            <div class="form">
+                <button>
+                    Submit
+
+                </button>
+
+            </div>
+        </form>
+    </section>
+</body>
+</html>
