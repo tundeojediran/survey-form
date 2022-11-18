@@ -1,0 +1,88 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: auto;
+}
+html,
+body {
+    height: 100%;
+}
+
+/*to remove in-built typos*/
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+body {
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    background-color: azure;
+    background-image: url(https://www.design.svgbackgrounds.com/wp-content/uploads/2021/05/sun-tornado-orange-spinning-background.jpg);
+    background-position: center;
+    
+}
+
+/*to avoid text overflow*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h1 {
+    text-align: center;
+}
+/*style the form*/
+
+form {
+    background-color: cyan;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 35px;
+    box-shadow: 10px 10px greenyellow;
+}
+
+.form {
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+}
+
+.form input {
+    color: brown;
+    background-color: beige;
+}
+.form button {
+    background-color: blueviolet;
+    border: 2px;
+    width: auto;
+}
