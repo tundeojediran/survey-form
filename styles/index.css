@@ -93,13 +93,12 @@ form {
 /* Ogooluwa CSS Styles */
 header {
   text-align: center;
-  margin: 20px;
+  font-size: 25px;
 }
 .container {
   box-shadow: 20px 20px 8px black;
 }
 .sub-head {
-  font-size: 20px;
   font-weight: bolder;
 }
 .fields {
@@ -112,6 +111,7 @@ header {
 .btn1 {
   padding: 8px;
   width: 95%;
+  font-size: 20px;
   background-color: turquoise;
   color: black;
   border: 2px solid;
