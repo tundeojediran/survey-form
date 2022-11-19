@@ -24,6 +24,12 @@ html,
 body {
   height: 100%;
 }
+h2{
+  text-align: center;
+}
+.form-control label{
+  font-weight: 570;
+}
 
 /*
   7. Remove built-in form typography styles
@@ -39,6 +45,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: white;
+  background-image: url(https://th.bing.com/th/id/OIP.6LtJTr81aFVkYrb6ENPdBwHaEo?w=269&h=180&c=7&r=0&o=5&pid=1.7);
 }
 
 /*
@@ -61,6 +68,7 @@ form {
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
+    box-shadow: 10px 10px 5px;
   }
 
 .form-control {
@@ -71,6 +79,11 @@ form {
 .form-control label {
   display: block;
   margin-bottom: 10px;
+}
+.form-control input{
+  background-color: rgba(170, 170, 219, 0.76);
+  color: brown;
+  
 }
 
 
@@ -88,4 +101,11 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  padding: 10px;
+  margin: 7px;
+}
+button{
+  width: 95%;
+  border: 2px solid gray;
+  background-color: rgb(62, 116, 116);
 }
