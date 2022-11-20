@@ -23,6 +23,7 @@ html {
 html,
 body {
   height: 100%;
+ 
 }
 
 /*
@@ -44,6 +45,7 @@ body {
 /*
   8. Avoid text overflows
 */
+
 p,
 h1,
 h2,
@@ -88,4 +90,52 @@ form {
 .form-control input[type="checkbox"] {
   display: inline-block;
   width: auto;
+    
 }
+
+form .head{
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: red;
+}
+
+form input{
+  background-color: blue;
+}
+
+form label{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+/*::placeholder{
+color: white;
+}*/
+
+input, select, textarea{
+  color: orange;
+}
+
+.form-control button{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 95%;
+  background-color: yellow;
+}
+
+.form-control input{
+  margin-left: 25px;
+}
+
+form{
+  box-shadow: 20px 20px 15px 25px orange;
+}
+
+
+  body{
+    background-image: url("../webpix.jpg");
+  }
+ 
