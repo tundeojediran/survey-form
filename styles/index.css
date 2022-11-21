@@ -39,10 +39,12 @@ select {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: white;
-  background-image: url(learningstyles.jpg);
+  background-color: white; 
+  background-image: url("learningstyles.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
-
 /*
   8. Avoid text overflows
 */
@@ -53,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
+overflow-wrap: break-word;
 }
 
 
@@ -89,7 +91,7 @@ form {
   border-radius: 5px;
   padding: 10px;
   width: 95%;
-
+  color: white;
 }
 
 .form-control input[type="radio"],
