@@ -1,6 +1,7 @@
 html {
   font-family: "Montserrat", sans-serif;
 }
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -54,15 +55,7 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/* SURVEY FORM STYLES */
-
-form {
-    background-color: aqua;
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 30px;
-  }
-
+/* form-control */
 .form-control {
   text-align: left;
   margin-bottom: 24px;
@@ -70,10 +63,18 @@ form {
 
 .form-control label {
   display: block;
-  margin-bottom: 10px;
 }
 
+body {
+  white-space: inherit;
+}
 
+form {
+  background-color: aqua;
+  margin: auto;
+  max-width: 600px;
+  padding: 30px;
+}
 
 .form-control input,
 .form-control select,
@@ -82,10 +83,44 @@ form {
   border-radius: 5px;
   padding: 10px;
   width: 95%;
+  background-color: rgba(231, 221, 163, 0.925);
 }
 
-.form-control input[type="radio"],
-.form-control input[type="checkbox"] {
+.form-control input[type='radio'],
+.form-control input[type='checkbox'] {
   display: inline-block;
   width: auto;
+  margin-left: 10px;
+}
+
+.header {
+  text-align: center;
+  font-size: 25px;
+  font-stretch: narrower;
+}
+
+.form-control label {
+  font-weight: bold;
+}
+
+.form-control input {
+  color: red;
+}
+
+.form-control button {
+  border: 2px;
+  width: 95%;
+  background-color: goldenrod;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form {
+  box-shadow: 15px 10px;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: 1300px 1100px;
 }
